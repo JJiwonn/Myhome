@@ -49,7 +49,7 @@ public class UserServlet extends BaseServlet {
 			resp.sendRedirect(req.getContextPath());	//	홈페이지로 리다이렉트
 		} else {
 			// 홈페이지로 리다이렉트
-			resp.sendRedirect(req.getContextPath() + "/");
+			resp.sendRedirect(req.getContextPath());
 		}
 	}
 
